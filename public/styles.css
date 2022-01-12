@@ -1,0 +1,165 @@
+/* Import fonts - begin */
+@font-face {
+  font-family: "Droid Serif";
+  src: url("./assets/fonts/DroidSerif.ttf");
+}
+
+@font-face {
+  font-family: "Yanone Kaffeesatz";
+  src: url("./assets/fonts/YanoneKaffeesatz.otf");
+}
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  src: url("./assets/fonts/UbuntuMono.ttf");
+}
+
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url("./assets/fonts/HelveticaNeueLTStd-Roman.otf");
+}
+/* Import fonts - end */
+
+body {
+  font-family: "Helvetica Neue LT Std";
+  font-weight: 500;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Yanone Kaffeesatz";
+  font-weight: 400; /* Normal */
+}
+
+a,
+a > code {
+  color: rgb(249, 38, 114);
+  text-decoration: none;
+}
+
+.inverse {
+  background-color: #272822;
+  color: #d6d6d6;
+  text-shadow: 0 0 20px #333;
+}
+.inverse h1,
+.inverse h2,
+.inverse h3 {
+  color: #f3f3f3;
+}
+
+.large {
+  font-size: 120%;
+}
+
+/* Two-column layout */
+.left-column {
+  color: #777;
+  width: 20%;
+  height: 92%;
+  float: left;
+}
+.left-column h2:last-of-type,
+.left-column h3:last-child {
+  color: #000;
+}
+.right-column {
+  width: 75%;
+  float: right;
+  padding-top: 1em;
+}
+.pull-left {
+  float: left;
+  width: 47%;
+}
+.pull-right {
+  float: right;
+  width: 47%;
+}
+.pull-right + * {
+  clear: both;
+}
+img,
+video,
+iframe {
+  max-width: 100%;
+}
+
+.image-30 img {
+  width: 30%;
+}
+
+.image-50 img {
+  width: 50%;
+}
+
+blockquote {
+  border-left: solid 5px lightgray;
+  padding-left: 1em;
+}
+
+.red {
+  color: #fa0000;
+}
+
+.yellow-bgc {
+  background-color: #ffff88;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: darkgray;
+  padding: 0.5rem;
+}
+
+.remark-code,
+.remark-inline-code {
+  color: rgb(63, 42, 33);
+  background-color: rgb(227, 209, 202);
+  border-bottom-left-radius: 7.35px;
+  border-bottom-right-radius: 7.35px;
+  border-top-left-radius: 7.35px;
+  border-top-right-radius: 7.35px;
+  padding-bottom: 5.0px;
+  padding-left: 8.1px;
+  padding-right: 8.1px;
+  padding-top: 5.0px;
+}
+
+.remark-code-line-highlighted {
+  background-color: #ffff88;
+}
+
+.remark-slide table {
+  margin: auto;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+}
+.remark-slide table thead th {
+  border-bottom: 1px solid #ddd;
+}
+th,
+td {
+  padding: 5px;
+}
+.remark-slide thead,
+.remark-slide tfoot,
+.remark-slide tr:nth-child(even) {
+  background: #eee;
+}
+
+@page {
+  margin: 0;
+}
+@media print {
+  .remark-slide-scaler {
+    width: 100% !important;
+    height: 100% !important;
+    transform: scale(1) !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+}

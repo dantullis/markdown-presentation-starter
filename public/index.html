@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Presentation</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta name="author" content="Dan Tullis" />
+</head>
+
+<body>
+  <textarea id="source"></textarea>
+  <script src="./assets/scripts/remark-latest.min.js"></script>
+  <script>
+    var slideshow = remark.create({
+      sourceUrl: 'presentation.md',
+      "highlightStyle": "github",
+      "highlightLines": true,
+      "countIncrementalSlides": false
+    });
+
+    if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) { window.dispatchEvent(new Event('resize')); });
+    (function () { var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler"); if (!r) return; s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height + "; }"; d.head.appendChild(s); })();</script>
+
+  <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+
+  <!-- Load Plugins -->
+  <script src="./assets/plugins/MathJax/MathJax.js?config=TeX-AMS_HTML-full" type="text/javascript"></script>
+  <!-- Load Plugins -->
+</body>
+
+</html>

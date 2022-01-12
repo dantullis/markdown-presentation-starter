@@ -1,0 +1,22 @@
+{
+  "name": "markdown-presentation-starter",
+  "version": "1.0.0",
+  "description": "In-browser presentation starter based on markdown files and the RemarkJs.com library",
+  "scripts": {
+    "presentation": "live-server ./public/ --verbose",
+    "export": "decktape remark http://127.0.0.1:8080/index.html presentation.pdf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dantullis/markdown-presentation-starter.git"
+  },
+  "author": "dantullis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dantullis/markdown-presentation-starter/issues"
+  },
+  "dependencies": {
+    "decktape": "^3.4.0",
+    "live-server": "^1.2.1"
+  }
+}
