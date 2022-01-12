@@ -66,7 +66,7 @@ This is random presentation content.
 
 To see any notes associated with this slide press the `p` key to enter `Presentation Mode`.  
 
-Note: Ensure you started via `npm run presentation` and all _Chrome web browsers are closed_.  
+Note: Ensure you started via `npm run presentation` and all _default web browsers are closed_.  
 
 To create notes type three question marks followed by the note text:
 ```markdown
