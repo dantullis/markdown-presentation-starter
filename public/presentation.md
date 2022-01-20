@@ -10,9 +10,11 @@ Welcome
 
 This is a quick walkthrough of the `Markdown Presentation Starter`
 
-You won't need much Node, NPM, HTML, or CSS experience to run this
+I'm gonna go over the download, the install, and how to run it locally
 
-Let's dive right into it
+I'll also go over the example project and give a few pointers
+
+Ok, let's dive right into it
 
 .red[ACTION]: SWITCH to smaller VIDEO scene
 
@@ -20,7 +22,7 @@ Let's dive right into it
 
 .red[ACTION]: SWITCH to terminal in a temp directory
 
-Let's follow the directions listed here
+Let's follow the directions listed in the README
 
 ---
 layout: true
@@ -47,9 +49,23 @@ and CSS skills, featuring:
 ]
 
 ???
-.red[ACTION]: SWITCH to VS Code to show markdown
+Here is a slide with a background image and a little CSS to create a second column for the slide content
 
-Here is a simple slide with a background image with a little bit of CSS to create a second column for the slide content
+Like the slide sates:
+- this project can be run `without an internet connection` 
+- use a wide variety of `formatting`
+- and has `presentation mode`
+
+---
+layout: false
+# Layout Example
+
+.center[![Code](./assets/images/code_1.png)]
+
+.footer[Markdown .red[Presentation] Starter]
+
+???
+Here is the Markdown and CSS used for the previous slide
 
 ---
 layout: false
@@ -102,7 +118,9 @@ This could be the note for this slide
 ]
 
 ???
-Let me show you what is great about `cloned view` and `presentation mode`
+Let me show you what is really great about about this project:
+
+- `cloned view` and `presentation mode`
 
 Press the `c` key to get a cloned view in a new browser window
 
@@ -111,6 +129,8 @@ This is for `your audience` to see
 Press the `p` key for presentation mode
 
 Move this to an `out of view` monitor
+
+.red[ACTION]: Also, notice how you can increase or decrease the size of the note by pressing the plus or minus keys
 
 .red[ACTION]: Now move `presentation mode` browser out of audience view
 
@@ -154,7 +174,6 @@ background-position: 0% 0%
 .footer[Markdown .red[Presentation] Starter]
 
 ---
-
 .left-column[]
 .right-column[
 # Code Blocks
@@ -177,7 +196,16 @@ end
 ???
 Here are two examples of using a code block
 
-.red[ACTION]: Switch to VS Code to show the code blocks
+---
+.left-column[]
+.right-column[
+# Code Blocks Markdown
+
+![Code](./assets/images/code_2.png)
+]
+
+???
+Here is the syntax used for the code blocks in the previous slide
 
 ---
 .left-column[]
@@ -207,7 +235,19 @@ if (a == b) {
 ???
 Here is an examples of hightlights in a code block
 
-.red[ACTION]: Switch to VS Code to show the code blocks
+Highlight by using a leading asterisk `inside the code block`
+
+---
+.left-column[]
+.right-column[
+# Highlight Markdown
+
+![Code](./assets/images/code_3.png)
+
+]
+
+???
+Here is the syntax used for the code blocks in the previous slide
 
 ---
 .left-column[]
@@ -223,8 +263,6 @@ To create a hidden comment:
 
 ???
 Here is an example of a hidden comment
-
-.red[ACTION]: Also, notice how you can increase or decrease the size of the note by pressing the plus or minus keys
 
 ---
 .left-column[]
@@ -262,4 +300,4 @@ Created with:
 https://github.com/dantullis/markdown-presentation-starter/issues
 
 ???
-Hope this walkthrough was helpful. If you have any questions or issues vist the GitHub URL listed above and let me know.
+Hope this walkthrough was helpful. If you have any questions or issues visit the GitHub URL listed here and let me know.
