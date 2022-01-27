@@ -1,6 +1,9 @@
 # Markdown Presentation Starter
 This is an `in-browser` presentation starter based on markdown files and the **[RemarkJs.com](https://www.remarkjs.com)** library.
 
+There is also a walkthrough video here:
+**[https://www.youtube.com/watch?v=jFePkTwgOTM](https://www.youtube.com/watch?v=jFePkTwgOTM)**
+
 ## Prerequisites
 - **[Node.js](https://nodejs.org/en/download/)**  
 - A file editor similar to **[Visual Studio Code](https://code.visualstudio.com/download)**
