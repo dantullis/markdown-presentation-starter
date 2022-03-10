@@ -16,7 +16,7 @@
     "url": "https://github.com/dantullis/markdown-presentation-starter/issues"
   },
   "dependencies": {
-    "decktape": "^3.4.0",
+    "decktape": "^3.4.1",
     "live-server": "^1.2.1"
   }
 }
