@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "In-browser presentation starter based on markdown files and the RemarkJs.com library",
   "scripts": {
-    "presentation": "live-server ./public/ --verbose",
+    "presentation": "dead-server ./public/ --verbose",
     "export": "decktape remark http://127.0.0.1:8080/index.html presentation.pdf"
   },
   "repository": {
@@ -16,7 +16,7 @@
     "url": "https://github.com/dantullis/markdown-presentation-starter/issues"
   },
   "dependencies": {
-    "decktape": "^3.4.1",
-    "live-server": "^1.2.1"
+    "decktape": "3.4.1",
+    "dead-server": "1.0.6"
   }
 }

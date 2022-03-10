@@ -291,7 +291,7 @@ class: center, middle, inverse
 **[Markdown Presentation Starter](https://github.com/dantullis/markdown-presentation-starter)**  
 Created with:  
 **[RemarkJs.com](https://www.remarkjs.com)**  
-**[Live-Server](https://github.com/tapio/live-server)**  
+**[Dead-Server](https://github.com/belauzas/dead-server)**  
 **[MathJax.org](https://www.mathjax.org/)**  
 **[DeckTape](https://github.com/astefanutti/decktape)**
 

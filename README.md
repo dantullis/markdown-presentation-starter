@@ -36,17 +36,18 @@ npm run presentation
 ![Example Presentation](public/assets/images/example-presentation.png)
 
 ## Instantiate Presentation Mode 
-In order to instantiate `Presentation Mode` in the default web browser, **[Live-Server](https://github.com/tapio/live-server)** needs to start with all instances of the default web browser(s) already closed.
+In order to instantiate `Presentation Mode` in the default web browser, **[Dead-Server](https://github.com/belauzas/dead-server)** needs to start with all instances of the default web browser(s) already closed.
 
 **NOTE**: If use of the keyboard shortcuts don't work, then close all web browsers and start `Markdown Presentation Starter` again.
 
-## Use Of Live-Server
-**[Live-Server](https://github.com/tapio/live-server)** is used for these reasons:
+## Use Of Dead-Server (a Live-Server replacement)
+**[Dead-Server](https://github.com/belauzas/dead-server)** is an updated fork of the non-maintained **[Live-Server](https://github.com/tapio/live-server)**
+
+ Dead-Server is used for these reasons:
 * Live reload / hot reload - As you edit any file (presentation.md, styles.css, ...) the server will reload the file and you’ll see your changes right away.
 * Separate Markdown File - To be able to use a separate markdown file (presentation.md) it is necessary to use a web server. See `Use Of Separate Markdown File` below.
 
-**NOTE**: **[Live-Server](https://github.com/tapio/live-server)** has not had a new version is several years. It works great as a `local-only-use` web server. **DO NOT** use Live-Server for a production web site. This is just for local use only. 
-
+**NOTE**: It works great as a `local-only-use` web server. **DO NOT** use Dead-Server for a production web site. This is just for local use only. 
 ## Use Of Separate Markdown File
 This starter project keeps the Markdown source in a separate file (presentation.md) using the sourceUrl field:
 ```JavaScript
